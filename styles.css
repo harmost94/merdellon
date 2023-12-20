@@ -1,0 +1,161 @@
+body {
+    font-family: Copperplate, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    max-height: 300px; /* Ajusta la altura del encabezado según tus necesidades */
+    object-fit: cover;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.newsletter h2 {
+    color: #333;
+}
+
+.newsletter p {
+    color: #555;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+body {
+    font-family: Copperplate, sans-serif; /* Cambia "Copperplate" según la disponibilidad de la fuente en tu sistema */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    max-height: 300px; /* Ajusta la altura del encabezado según tus necesidades */
+    object-fit: cover;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.newsletter h2 {
+    font-family: Copperplate, sans-serif; /* Cambia la tipografía para el encabezado */
+    color: #333;
+}
+
+.newsletter p {
+    font-family: Copperplate, sans-serif; /* Cambia la tipografía para el párrafo */
+    color: #555;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-family: Copperplate, sans-serif; /* Cambia la tipografía para las etiquetas */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    font-family: Copperplate, sans-serif; /* Cambia la tipografía para los campos de entrada */
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: Copperplate, sans-serif; /* Cambia la tipografía para el botón */
+}
+body {
+    font-family: Copperplate, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.newsletter h2,
+.newsletter p,
+label,
+input,
+button {
+    font-family: Copperplate, sans-serif;
+}
+
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .newsletter {
+        padding: 10px;
+    }
+
+    header img {
+        max-height: 150px;
+    }
+
+    input {
+        width: calc(100% - 20px);
+        margin-right: 0;
+    }
+}
